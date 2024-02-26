@@ -1,0 +1,21 @@
+* {
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  font-size: 1.6rem;
+  /* font */
+  /* background */
+}
+a {
+  text-decoration: none;
+}
+input,
+textarea,
+select,
+button {
+  font-size: inherit; /*kế thừa*/
+  font-family: inherit;
+}
