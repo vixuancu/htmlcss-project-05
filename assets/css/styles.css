@@ -6,16 +6,104 @@ html {
 }
 body {
   font-size: 1.6rem;
+  font-family: "Open Sans", sans-serif;
   /* font */
   /* background */
 }
+:root {
+  --primary-color: #696d76;
+  --second-color: #212832;
+}
+/* common */
 a {
   text-decoration: none;
 }
+
 input,
 textarea,
 select,
 button {
   font-size: inherit; /*kế thừa*/
   font-family: inherit;
+}
+.container {
+  width: 1170px;
+  max-width: calc(1170px - 48px);
+  margin: 0 auto;
+}
+.btn {
+  --height: 58px;
+
+  line-height: var(--height);
+  min-width: 149px;
+  background: #7264d6;
+  border-radius: 8px;
+  display: inline-block;
+  text-align: center;
+  color: #fff;
+  font-size: 1.6rem;
+  font-style: normal;
+  font-weight: 600;
+}
+.btn:hover {
+  opacity: 0.8;
+}
+/* header */
+.header {
+  padding: 12px 0;
+  background: pink;
+}
+.header__inner {
+  display: flex;
+  align-items: center;
+}
+.navbar {
+  margin-left: 46px;
+}
+.navbar__list {
+  display: flex;
+}
+.navbar__item {
+  padding: 12px 24px;
+}
+.navbar__link {
+  color: var(--primary-color);
+  font-size: 1.6rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.75; /* 175% */
+}
+.navbar__link:hover {
+  color: var(--second-color);
+  text-shadow: 0.7px 0 0 currentColor;
+}
+.navbar__item-active {
+  color: var(--second-color);
+  text-shadow: 0.7px 0 0 currentColor;
+}
+.navbar__item-active::after {
+  content: "";
+  display: block;
+  height: 1px;
+  width: 100%;
+  background: #7264d6;
+}
+.header__action {
+  margin-left: auto;
+}
+.header__action-login {
+  padding: 12px 28px;
+  font-size: 1.6rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 1.75; /* 175% */
+  color: var(--second-color);
+}
+.header__action-login:hover {
+  opacity: 0.8;
+}
+.header__action-signup {
+  min-width: 113px;
+  --height: 52px;
+  background-color: var(--second-color);
 }
