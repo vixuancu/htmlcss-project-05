@@ -1,0 +1,26 @@
+<svg width="250" height="150" viewBox="0 0 250 150" fill="none" xmlns="http://www.w3.org/2000/svg">
+<mask id="mask0_16_68" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="250" height="150">
+<rect width="250" height="150" rx="20" fill="url(#paint0_linear_16_68)"/>
+</mask>
+<g mask="url(#mask0_16_68)">
+<circle cx="39.5" cy="-4.5" r="38" stroke="#9487EA"/>
+<circle cx="46.5" cy="-8.5" r="38" stroke="#9487EA"/>
+<circle cx="53.5" cy="-12.5" r="38" stroke="#9487EA"/>
+<circle cx="60.5" cy="-16.5" r="38" stroke="#9487EA"/>
+<circle cx="67.5" cy="-20.5" r="38" stroke="#9487EA"/>
+<circle cx="157.995" cy="117.277" r="38" transform="rotate(65 157.995 117.277)" stroke="#6657D2"/>
+<circle cx="164.578" cy="121.93" r="38" transform="rotate(65 164.578 121.93)" stroke="#6657D2"/>
+<circle cx="171.162" cy="126.584" r="38" transform="rotate(65 171.162 126.584)" stroke="#6657D2"/>
+<circle cx="177.745" cy="131.238" r="38" transform="rotate(65 177.745 131.238)" stroke="#6657D2"/>
+<circle cx="184.329" cy="135.891" r="38" transform="rotate(65 184.329 135.891)" stroke="#6657D2"/>
+<circle cx="190.912" cy="140.545" r="38" transform="rotate(65 190.912 140.545)" stroke="#6657D2"/>
+<circle cx="197.496" cy="145.199" r="38" transform="rotate(65 197.496 145.199)" stroke="#6657D2"/>
+<circle cx="204.079" cy="149.853" r="38" transform="rotate(65 204.079 149.853)" stroke="#6657D2"/>
+</g>
+<defs>
+<linearGradient id="paint0_linear_16_68" x1="18" y1="106.5" x2="176" y2="41.5" gradientUnits="userSpaceOnUse">
+<stop stop-color="#30ACEA"/>
+<stop offset="1" stop-color="#316FEA"/>
+</linearGradient>
+</defs>
+</svg>
