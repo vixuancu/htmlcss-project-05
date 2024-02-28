@@ -59,6 +59,14 @@ button {
   line-height: 1.75; /* 175% */
   padding-left: 30px;
 }
+.section__heading2 {
+  margin-top: 12px;
+  color: var(--second-color);
+  font-size: 4rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.25; /* 125% */
+}
 .section__label::before {
   position: absolute;
   content: "";
@@ -77,6 +85,13 @@ button {
   font-style: normal;
   font-weight: 400;
   line-height: 1.67; /* 166.667% */
+}
+.section__desc2 {
+  color: var(--primary-color);
+  font-size: 1.6rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.75; /* 175% */
 }
 /* header */
 .header {
@@ -214,6 +229,7 @@ button {
   width: 296px;
   height: 562px;
   flex-shrink: 0;
+  margin-right: 174px;
 }
 .hero__media::before {
   position: absolute;
@@ -450,4 +466,98 @@ button {
   font-style: normal;
   font-weight: 400;
   line-height: 1; /* 100% */
+}
+/* about */
+.about {
+  margin-top: 160px;
+}
+.about__inner {
+  display: flex;
+  align-items: center;
+}
+.about__media {
+  margin-right: 230px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  width: 470px;
+}
+.about__media::after {
+  content: url(../img/about-bg-media.svg);
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  z-index: -1;
+}
+.about__media-img {
+  display: block;
+  width: 456px;
+  height: 619px;
+  object-fit: cover;
+}
+.about__media-bank {
+  position: absolute;
+  top: 76px;
+  right: 62px;
+}
+.media-status {
+  position: absolute;
+  bottom: 89px;
+  right: -100px;
+  display: flex;
+  align-items: center;
+  column-gap: 10px;
+  border-radius: 8px;
+  background: #fffdfa;
+  box-shadow: 0px 14px 34px 0px rgba(0, 0, 0, 0.07);
+  padding: 15px 30px 15px 15px;
+}
+.check-container {
+  background: #4ab5e3;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 6px;
+}
+.check-wrap {
+  width: 20px;
+  height: 20px;
+  background: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+}
+.media-status__title {
+  color: var(--second-color);
+  font-size: 1.4rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.media-status__content {
+  margin-top: 5px;
+  color: var(--primary-color);
+  font-size: 1.2rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.about-list {
+  margin-top: 70px;
+}
+.about-item + .about-item {
+  margin-top: 30px;
+}
+.about-item__title {
+  color: var(--second-color);
+  font-size: 2.2rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 1.45; /* 145.455% */
+}
+.about-item__desc {
+  margin-top: 16px;
 }
