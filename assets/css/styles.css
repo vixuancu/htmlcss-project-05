@@ -561,3 +561,166 @@ button {
 .about-item__desc {
   margin-top: 16px;
 }
+/* payment */
+.payment {
+  margin-top: 160px;
+}
+.payment__inner {
+  display: flex;
+  align-items: center;
+  column-gap: 130px;
+}
+.payment__content {
+  width: 40%;
+}
+
+.payment__list {
+  margin-top: 28px;
+}
+.payment__item-content {
+  margin-top: 18px;
+  color: var(--second-color);
+  font-size: 1.8rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 1.67; /* 166.667% */
+  display: flex;
+  align-items: center;
+  column-gap: 12px;
+}
+.payment__item-content::before {
+  content: "";
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  background: #7264d6;
+  border-radius: 50%;
+}
+.payment__btn {
+  margin-top: 38px;
+  background: var(--second-color);
+}
+/* visa card */
+.payment-visa {
+  position: relative;
+  width: 482px;
+  height: 322px;
+  flex-shrink: 0;
+  border-radius: 20px;
+  background: #8476e3;
+}
+.payment-visa__inner {
+  padding: 38px;
+}
+.payment-visa__decor1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.payment-visa__decor2 {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+.payment-visa__icon {
+  position: absolute;
+  top: 38px;
+  right: 38px;
+}
+.payment-visa__title,
+.payment-visa__money {
+  position: relative;
+  z-index: 1;
+}
+.payment-visa__title {
+  color: #fff;
+  font-size: 2.4rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.payment-visa__money {
+  color: #fff;
+  font-size: 3.2rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.payment-visa__info {
+  margin-top: 98px;
+  display: flex;
+  align-items: center;
+  column-gap: 26px;
+}
+.payment__valid,
+.payment__holder {
+  position: relative;
+  color: #fff;
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  z-index: 1;
+}
+.payment__date,
+.payment__name {
+  position: relative;
+  color: #fff;
+  font-size: 2.2rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  z-index: 1;
+}
+.payment-visa__item {
+  margin-top: 0;
+  top: -48px;
+  right: -88px;
+  position: absolute;
+  width: 276px;
+  height: 86px;
+  border-radius: 12px;
+  background: #fff;
+  box-shadow: 0px 14px 38px 0px rgba(0, 0, 0, 0.07);
+  padding: 13px 23px;
+}
+.payment-visa__icons {
+  background: rgba(218, 100, 100, 0.1);
+}
+.visa-income {
+  position: absolute;
+  right: -88px;
+  bottom: -55px;
+  width: 120px;
+  height: 120px;
+  background: #439f90;
+  border-radius: 16px;
+}
+.visa-income__wrap {
+  padding: 15px;
+}
+.income-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+  width: 30px;
+  height: 30px;
+  background: #fff;
+  margin-bottom: 14px;
+}
+.visa-income__title {
+  color: #fff;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 6px;
+}
+.visa-income__value {
+  color: #fff;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
